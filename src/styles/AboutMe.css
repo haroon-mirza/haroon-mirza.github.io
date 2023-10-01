@@ -1,7 +1,12 @@
 .about-me {
-    padding: 2rem;
-    background-color: #f4f4f4;
+    background-color: #dcd6f7 ;
+    height: 30vh;
+    color: var(--text-color)
   }
-  .about-me h2 { font-size: 2rem; margin-bottom: 1rem; }
-  .about-me p { font-size: 1rem; line-height: 1.6; }
+  .about-me h2 { margin-right: 1100px; font-size: 2rem; margin-bottom: 1rem; }
+  .about-me p { margin-left: 242px; margin-right: 242px; font-size: 14px; font-weight: 300; line-height: 1.6; font-family: sans-serif;}
+  
+  .about-me {
+    margin-bottom: -10px; 
+  }
   
