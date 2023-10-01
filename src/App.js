@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header'; // Import Header component
-import AboutMe from './components/AboutMe'; // Import AboutMe component
+import Header from './components/Header'; 
+import AboutMe from './components/AboutMe'; 
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
-      <Header /> {/* Include Header component */}
-      <AboutMe /> {/* Include AboutMe component */}
-      {/* Other components will go here */}
+      <Header />
+      <AboutMe /> 
+      <Projects />
     </div>
   );
 }
