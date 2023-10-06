@@ -5,11 +5,9 @@ function AboutMe() {
   return (
     <section id="about-me" className="about-me">
       <h2>About Me</h2>
-      <p>Hello, I'm Haroon, a Data Analyst with a relentless curiosity and a passion for learning about the world through data. Uncovering hidden knowledge and insight within data and into actionable insights keeps me interested.
+      <p>Hello, I'm Haroon, a developer interested in applying his skillsets wherever needed
 
-My main tools are Python, SQL, and Power BI.
-
-I’m open to collaborations and opportunities and am always eager to tackle new challenges and solve problems using data.
+I’m open to collaborations and opportunities and am always eager to tackle new challenges and solve problems.
 
 Interested? Feel free to reach out to me via email
 </p>

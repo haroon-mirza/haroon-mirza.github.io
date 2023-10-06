@@ -5,7 +5,7 @@ function WelcomeSection() {
   return (
     <section className="welcome-section">
       <h1>Haroon Mirza</h1>
-      <p>Analytics</p>
+      <p></p>
     </section>
   );
 }
