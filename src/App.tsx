@@ -6,14 +6,14 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import WelcomeSection from './components/WelcomeSection';
 
-function App() {
+const App: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
-      const header = document.querySelector('.header');
+      const header = document.querySelector('.header') as HTMLElement; // Type assertion added here
       if (header) {
-        header.style.opacity = Math.min(offset / 100, 1); // Adjust the divisor for faster/slower appearance
+        header.style.opacity = Math.min(offset / 100, 1).toString(); // Adjust the divisor for faster/slower appearance
       }
     };
 
