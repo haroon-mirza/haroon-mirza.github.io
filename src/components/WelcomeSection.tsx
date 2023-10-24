@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/WelcomeSection.css';
 
-function WelcomeSection() {
+const WelcomeSection: React.FC = () => {
   return (
     <section className="welcome-section">
       <h1>Haroon Mirza</h1>
-      <p></p>
+      <p>Business Intelligence/Data Analysis Specialist</p>
     </section>
   );
 }

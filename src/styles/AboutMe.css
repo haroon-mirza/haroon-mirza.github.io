@@ -1,12 +1,23 @@
 .about-me {
-    background-color: #dcd6f7 ;
-    height: 30vh;
-    color: var(--text-color)
-  }
-  .about-me h2 { margin-right: 600px; font-size: 2rem; margin-bottom: 1rem; }
-  .about-me p { margin-left: 75px; margin-right: 242px; font-size: 14px; font-weight: 300; line-height: 1.6; font-family: sans-serif;}
-  
-  .about-me {
-    margin-bottom: -10px; 
-  }
-  
+  background-color: #dcd6f7;
+  padding: 2rem 5%; 
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center; 
+}
+
+.about-me p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 800px; 
+  text-align: center;
+}

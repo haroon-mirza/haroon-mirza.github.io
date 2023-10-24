@@ -1,7 +1,8 @@
 .footer {
-    padding: 1rem;
-    background-color: #c5bde6;
-    color: var(--text-color);
-    text-align: center;
-  }
-  
+  padding: 1.5rem 0; /* Increased padding for better spacing */
+  background-color: #f7f7f7; /* Light gray background for consistency */
+  color: var(--text-color);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 1px solid #e0e0e0; /* Light border for separation */
+}
